@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#semaforo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: rgba(240, 228, 70, 0.815);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#pai {
+    background-color: rgb(0, 0, 0);
+    padding: 0 10% 2% 10%;
+}
+
+.vermelho {
+    background-color: rgb(163, 50, 50);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.vermelhojs {
+    background-color: rgb(248, 8, 8);
+}
+
+.amarelo {
+    background-color: rgb(176, 179, 49);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.amarelojs {
+    background-color: yellow;
+}
+
+.verde {
+    background-color: rgb(56, 151, 64);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.verdejs {
+    background-color: green;
+}
